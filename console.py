@@ -8,7 +8,7 @@ import repositories.album_repository as album_repository
 album_repository.delete_all()
 artist_repository.delete_all()
 
-artist_1 = Artist("Frank Turner)
+artist_1 = Artist("Frank Turner")
 artist_2 = Artist("Taylor Swift")
 
 artist_repository.save(artist_1)
