@@ -14,7 +14,8 @@ def save(album):
     return album
 
 def delete_all():
-    pass
+    sql = "DELETE FROM albums"
+    run_sql(sql)
 
 
 def select(id):
